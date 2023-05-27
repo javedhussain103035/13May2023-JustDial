@@ -1,0 +1,41 @@
+body{
+    background-color: #E8E8E8;
+}
+.j_tbdr{
+    border: 2px dashed red;
+}
+.j_cont{
+   
+}
+header{
+    height: 81px;
+    width: 94%;
+    margin: auto;
+
+    
+}
+main{
+    height: 3033px;
+    margin-top: 81px;
+}
+footer{
+}
+.j_footer1{
+    height: 112px;
+}
+.j_footer2{
+    height: 1377px;
+}
+.j_footer3{
+    height: 300px;
+}
+.j_footer4{
+    height: 97px;
+}
+
+
+@media (min-width: 1400px){
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: 1457px;
+    }
+}
