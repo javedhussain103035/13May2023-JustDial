@@ -10,9 +10,20 @@ body{
 header{
     height: 81px;
     width: 94%;
-    margin: auto;
-
-    
+    margin: auto;  
+}
+ul > li:hover{
+    background-color: #EDEDED;
+    cursor: pointer;
+    border-radius: 5px;
+}
+ul.j_menu > li:hover ul{
+    display: block;
+}
+ul.j_submenu{
+    width: 100px;
+    background-color: red;
+    display: none;
 }
 main{
     height: 3033px;
