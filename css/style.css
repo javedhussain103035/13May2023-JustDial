@@ -2,34 +2,35 @@ body{
     background-color: #E8E8E8;
 }
 .j_tbdr{
-    border: 2px dashed red;
+    border: 1px dashed red ;
 }
-.j_cont{
-   
-}
+
 header{
     height: 81px;
     width: 94%;
-    margin: auto;  
+    margin: auto;
 }
-ul > li:hover{
+ul > li > a:hover{
     background-color: #EDEDED;
     cursor: pointer;
-    border-radius: 5px;
+    
 }
-ul.j_menu > li:hover ul{
-    display: block;
+.j_menu > li:hover ul{
+    display: block; /*Show*/
 }
-ul.j_submenu{
+.j_submenu{
     width: 100px;
-    background-color: red;
-    display: none;
+    display: none; /* Hide*/
 }
 main{
     height: 3033px;
-    margin-top: 81px;
+        margin-top: 5rem!important;
+}
+.mt-5.j_mt-5{
+    margin-top: 5rem!important;
 }
 footer{
+   
 }
 .j_footer1{
     height: 112px;
@@ -44,9 +45,8 @@ footer{
     height: 97px;
 }
 
-
 @media (min-width: 1400px){
-    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
-        max-width: 1457px;
+.container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    max-width: 1457px;
     }
 }
