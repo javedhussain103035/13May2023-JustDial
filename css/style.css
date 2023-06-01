@@ -44,6 +44,9 @@ footer{
 .j_footer4{
     height: 97px;
 }
+.j_tnr{
+    font-family: 'Times New Roman', Times, serif;
+}
 
 @media screen and (max-width: 576px){
     .j_form_col{
