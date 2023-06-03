@@ -48,6 +48,34 @@ footer{
     font-family: 'Times New Roman', Times, serif;
 }
 
+::-webkit-input-placeholder {
+    font-size: 15px;
+    font-weight: bold;
+    color: #333 !important;
+    opacity: 0.5 !important;
+ }
+ 
+ :-moz-placeholder { /* Firefox 18- */
+       font-size: 15px;
+       font-weight: bold;
+       color: #333 !important;
+       opacity: 0.5 !important;
+ }
+ 
+ ::-moz-placeholder {  /* Firefox 19+ */
+       font-size: 15px;
+       font-weight: bold;
+       color: #333 !important;
+       opacity: 0.5 !important;
+ }
+ 
+ :-ms-input-placeholder {
+       font-size: 15px;
+       font-weight: bold;
+       color: #333 !important;
+       opacity: 0.5 !important;
+ }
+
 @media screen and (max-width: 576px){
     .j_form_col{
         height: 50px;
