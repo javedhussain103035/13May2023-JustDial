@@ -7,7 +7,33 @@ body{
 
 header{
     min-height: 81px;
-    
+    z-index: 10000;
+}
+
+.j_ccp,.j_ccn{
+    visibility: visible ;
+}
+
+.j_mainslider:hover{
+    cursor: pointer;
+}
+
+.j_mainslider .j_ccp,.j_mainslider .j_ccn{
+    background-color: rgba(0, 0, 0,0.8);
+    width: 25px;
+    height: 25px;
+    border-radius: 25px;
+    visibility: hidden ;
+}
+.j_ccp{
+    left: 20px;
+}
+.j_ccn{
+    right: 20px;
+}
+
+.j_mainslider:hover .j_ccp,.j_mainslider:hover .j_ccn{
+    visibility: visible ;
 }
 
 .j_mainslider img{
