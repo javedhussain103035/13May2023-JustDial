@@ -2,13 +2,14 @@ body{
     background-color: #E8E8E8;
 }
 .j_tbdr{
-    border: 1px dashed red ;
+   /* border: 1px dashed red ;*/
 }
 
 header{
     min-height: 81px;
     z-index: 10000;
 }
+
 
 .j_ccp,.j_ccn{
     visibility: visible ;
@@ -45,20 +46,26 @@ header{
     width: 6px !important;
     
 }
-
 .j_m11{
-    height: 275px;
+    height: 120px;
+}
+.j_orange{
+    background-color: #fe610c !important;
 }
 
-ul.j_m22_icons > li > a > img{
+.j_m22{
+    min-height: 275px;
+}
+
+ul.j_m33_icons > li > a > img{
     width: 74px;
     height: 74px;
 }
 
-ul.j_m22_icons > li >a:hover{
+ul.j_m33_icons > li >a:hover{
     background-color: #fff;
 }
-ul.j_m22_icons > li >a:hover > img{
+ul.j_m33_icons > li >a:hover > img{
     box-shadow: 0px 0px 5px 5px rgba(0, 0, 0,0.05);
 }
 
