@@ -90,9 +90,14 @@ main{
 .mt-5.j_mt-5{
     margin-top: 5rem!important;
 }
-footer{
-   
+
+.j_city_input{
+    background: #EEE;
 }
+.j_city_input2:focus{
+    background: transparent;
+}
+
 .j_footer1{
     height: 112px;
 }
