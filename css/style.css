@@ -98,6 +98,25 @@ main{
     background: transparent;
 }
 
+.j_scrollToTop{
+    animation-name: stp;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    
+}
+@keyframes stp{
+    from{
+        opacity: 0;
+        transform: scale(0,0);
+    }
+    to{
+        opacity: 2;
+        transform: scale(1,1);
+    }
+}
+
 .j_footer1{
     height: 112px;
 }
@@ -140,6 +159,16 @@ main{
        font-weight: bold;
        color: #333 !important;
        opacity: 0.5 !important;
+ }
+
+
+ .j_search_form{
+    position: fixed !important;
+    top: 15px;
+    left: 300px;
+    z-index: 10000;
+    background-color: #fff;
+    transition: all linear 5s !important;
  }
 
  div.j_animation{
@@ -195,6 +224,7 @@ main{
 
 
 @media screen and (max-width: 576px){
+    
     .j_form_col{
         height: 50px;
     }

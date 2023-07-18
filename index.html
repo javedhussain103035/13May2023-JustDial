@@ -11,9 +11,9 @@
     </head>
     <body>
       <!-- Modal -->
-      <a href="#" class="j_scroll-To-Top">
-        <i class="fa-solid fa-chevron-up"></i>
-      </a>
+      <button class="btn j_scrollToTop position-fixed bottom-0 end-0" style="bottom: 36px !important;">
+        <img src="https://akam.cdn.jdmagicbox.com/images/icontent/jdmart/gojd_backtop_icon.svg"/>
+      </button>
       <div class="modal hide" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-fullscreen">
           <div class="modal-content">
@@ -119,7 +119,7 @@
                 <img class="img-fluid mt-2" src="img/logo.svg" height="25" width="102"/>
               </a>
             </div>
-            <div class="col-8 col-sm-3 j_form_col j_tbdr">
+            <div class="col-8 col-sm-3 j_form_col j_tbdr d-block d-sm-none">
               <div class="d-block d-sm-none">
                 <ul class="nav float-end mt-2 j_tnr">
                   <li class="nav-item">
@@ -139,70 +139,72 @@
               </div>
             </div>
 
-            <div class="col-12 col-sm-7 pt-2 pb-2 ps-3 pe-3"> 
-              <form class="d-sm-none d-md-none border pt-0 pb-0 border-dark-sabtle rounded-3 p-1">
-                <div class="row">
-                  <div class="col-1 p-0 ">
-                    <img class="btn h-100 " src="img/hypersrch.svg"/>
+            <div class="j_headerright clearfix col-12 col-sm-10 pt-2 pb-2 ps-3 pe-3 "> 
+              <div class="float-end">
+                <form class="d-sm-none d-md-none border pt-0 pb-0 border-dark-sabtle rounded-3 p-1">
+                  <div class="row">
+                    <div class="col-1 p-0 ">
+                      <img class="btn h-100 " src="img/hypersrch.svg"/>
+                    </div>
+                    <div class="col-9 p-0 ">
+                      <input type="search" placeholder="Packers And movers" class="form-control shadow-none border border-0" id="exampleInputPassword1">
+                    </div>
+                    <div class="col-2  p-0 "> 
+                      <button type="submit" class="btn float-end">
+                        <img src="img/nwtmic.svg"/>
+                      </button>
+                    </div>
                   </div>
-                  <div class="col-9 p-0 ">
-                    <input type="search" placeholder="Packers And movers" class="form-control shadow-none border border-0" id="exampleInputPassword1">
-                  </div>
-                  <div class="col-2  p-0 "> 
-                    <button type="submit" class="btn float-end">
-                      <img src="img/nwtmic.svg"/>
-                    </button>
-                  </div>
+                </form>
+                <div class="d-none d-sm-block j_tbdr float-end">
+  
+                  <ul class=" nav mt-4 ms-4 j_menu">
+                    <li class="nav-item">
+                      <a class="ps-2 pt-1 pb-1 pe-2 nav-link active" aria-current="page" href="#">
+                        <img class="me-1" src="img/nav_language_icon.svg"/>English
+                        <img class="ms-1" src="img/down_arrow5.svg"/>
+                      </a>
+                      <ul class="nav-flex-column j_submenu bg-white list-unstyled border position-absolute">
+                        <li class="nav-item">
+                          <a href="#" class="nav-link text-secondary-emphasis active">Hindi</a>
+                        </li>
+                        <li class="nav-item">
+                          <a href="#" class="nav-link text-secondary-emphasis">Urdu</a>
+                        </li>
+                        <li class="nav-item">
+                          <a href="#" class="nav-link text-secondary-emphasis">Marathi</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="nav-item">
+                      <a class="ps-2 pt-1 pb-1 pe-2 nav-link text-secondary-emphasis" href="#">We are Hiring</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="ps-2 pt-1 pb-1 pe-2 nav-link text-secondary-emphasis" href="#">Invester Relation</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="ps-2 pt-1 pb-1 pe-2 nav-link text-secondary-emphasis ">
+                        <img class="me-1" src="img/nav_advertise_icon.svg"/>Advertise
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="ps-2 pt-1 pb-1 pe-2 nav-link text-secondary-emphasis ">
+                        <img src="img/nav_listing_icon.svg"/> Free Listing
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="ps-2 pt-1 pb-1 pe-2 nav-link text-secondary-emphasis ">
+                        <img src="img/notify_icon.svg"/>
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="ps-2 pt-1 pb-1 pe-2 nav-link text-secondary-emphasis ">
+                        <img src="img/login_icon.svg"/>Login/Sign-Up</a>
+                    </li>
+                  </ul>
                 </div>
-              </form>
-              <div class="d-none d-sm-block j_tbdr">
-
-                <ul class=" nav mt-4 ms-4 j_menu">
-                  <li class="nav-item">
-                    <a class="ps-2 pt-1 pb-1 pe-2 nav-link active" aria-current="page" href="#">
-                      <img class="me-1" src="img/nav_language_icon.svg"/>English
-                      <img class="ms-1" src="img/down_arrow5.svg"/>
-                    </a>
-                    <ul class="nav-flex-column j_submenu bg-white list-unstyled border position-absolute">
-                      <li class="nav-item">
-                        <a href="#" class="nav-link text-secondary-emphasis active">Hindi</a>
-                      </li>
-                      <li class="nav-item">
-                        <a href="#" class="nav-link text-secondary-emphasis">Urdu</a>
-                      </li>
-                      <li class="nav-item">
-                        <a href="#" class="nav-link text-secondary-emphasis">Marathi</a>
-                      </li>
-                    </ul>
-                  </li>
-                  <li class="nav-item">
-                    <a class="ps-2 pt-1 pb-1 pe-2 nav-link text-secondary-emphasis" href="#">We are Hiring</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="ps-2 pt-1 pb-1 pe-2 nav-link text-secondary-emphasis" href="#">Invester Relation</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="ps-2 pt-1 pb-1 pe-2 nav-link text-secondary-emphasis ">
-                      <img class="me-1" src="img/nav_advertise_icon.svg"/>Advertise
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="ps-2 pt-1 pb-1 pe-2 nav-link text-secondary-emphasis ">
-                      <img src="img/nav_listing_icon.svg"/> Free Listing
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="ps-2 pt-1 pb-1 pe-2 nav-link text-secondary-emphasis ">
-                      <img src="img/notify_icon.svg"/>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="ps-2 pt-1 pb-1 pe-2 nav-link text-secondary-emphasis ">
-                      <img src="img/login_icon.svg"/>Login/Sign-Up</a>
-                  </li>
-                </ul>
               </div>
-              
+
             </div>
           </div>
         </header>
@@ -468,11 +470,11 @@
                       </div>
                 </div>
 
-                <form>
+                <form class="">
                   <div class="row m-0 j_tbdr">
                     <div class="col-4 j_tbdr">
-                      <div class="p-2 d-flex flex-row j_city_input border border-dark rounded-2">
-                        <img class="" src="https://akam.cdn.jdmagicbox.com/images/icontent/newwap/web2022/location_icon.svg"/>
+                      <div class="p-2 d-flex flex-row align-items-center j_city_input border border-dark rounded-2">
+                        <i class="fa-solid fa-location-dot"></i>
                          <input type="text" class=" form-control form-control-sm border-0 j_city_input j_city_input2 shadow-none " placeholder="Anand Nagar, Bhopal" aria-label="First name">
                       </div>
                       
@@ -483,12 +485,12 @@
                           <input type="text" class="form-control shadow-none border-0 pt-1 pb-1" placeholder="Search for expert services" aria-label="Last name">
                         </div>
                         <div class="col-3 p-0">
-                          <div class="d-flex flex-row mb-3">
+                          <div class="d-flex flex-row ">
                             <div class="p-1">
                               <img src="https://akam.cdn.jdmagicbox.com/images/icontent/newwap/web2022/jd_mic_icon.svg"/>
                             </div>
                             <div class="p-1">
-                              <button class="btn j_orange">
+                              <button class="btn btn-sm j_orange">
                                 <img class="img-fluid" src="https://akam.cdn.jdmagicbox.com/images/icontent/newwap/web2022/jd_mic_icon.svg"/>
                               </button>
                             </div> 
@@ -504,9 +506,9 @@
               </div>
             </div>
           </div>
-          <div class="j_m22 d-none d-sm-block">
-            <div class="row m-0 h-100">
-              <div class="col-6 p-0 j_tbdr h-100">
+          <div class="j_m22 d-none d-sm-block j_tbdr">
+            <div class="row m-0 h-100 ">
+              <div class="col-6 p-0 j_tbdr h-100 ">
                 <div id="carouselExampleIndicators" class="carousel slide j_mainslider" data-bs-ride="carousel">
                   <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active rounded-circle" aria-current="true" aria-label="Slide 1"></button>
